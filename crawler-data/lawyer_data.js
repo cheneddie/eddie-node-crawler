@@ -45,15 +45,15 @@ c.queue({
                             for (var itme in h2TextData) {
                                 if (h2TextData.hasOwnProperty(itme)) {
                                     arr.push(h2TextData[itme]);
-                                    
+
                                     switch (itme) {
                                         case "0":
                                             arrayData.teacherName = h2TextData[itme];
                                             break;
                                         case "1":
-                                            h2TextData[itme]!==undefined?
-                                            arrayData.experience += h2TextData[itme]: false;
-                                            
+                                            h2TextData[itme] !== undefined ?
+                                                arrayData.experience += h2TextData[itme] : false;
+
                                             break;
                                         case "2":
                                             arrayData.experience += h2TextData[itme];

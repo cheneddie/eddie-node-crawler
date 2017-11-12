@@ -1,0 +1,20 @@
+{
+  "name": "eddieapi",
+  "version": "1.0.0",
+  "description": "Eddie Testing API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ChenEddie",
+  "license": "ISC",
+  "dependencies": {
+    "crawler": "^1.1.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "crawler",
+    "nodejs",
+    "javascript"
+  ]
+}
